@@ -1,0 +1,84 @@
+/* Variables */
+
+:root{
+    --title: 3rem;
+    --title-secundary: 2.7rem;
+    --subtitle: 2rem;
+    --bg: 1.5rem;
+    --md: 1.2rem;
+    --sm: 1rem;
+}
+
+/* Pagina de carga */
+
+.landing__word{
+    font-size: 2rem;
+}
+
+/* Encabezado */
+
+.header__nav_list{
+    flex-direction: column;
+}
+
+/* Banner */
+
+.banner__description{
+    height: 6rem;
+}
+
+.button--red{
+    height:auto;
+}
+
+/* Cuerpo */
+
+.section{
+    flex-direction: column;
+}
+
+.section__article,
+.section__wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+.aside{
+    position: relative;
+    width: 100%;
+    margin: 1.7rem auto;
+}
+
+/* Contacto */
+
+.contact{
+    flex-direction: column;
+}
+
+.form{
+    width: 80%;
+}
+
+.form__form{
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+/* Pie de pagina  */
+
+.footer{
+    flex-direction: column;
+    padding-bottom: 6rem;
+}
+
+.footer__pages,
+.footer__animes,
+.footer__games{
+    width: 100%;
+    text-align: center;
+}
+
+.footer__list--container{
+    justify-content:space-around;
+}

@@ -1,0 +1,9 @@
+:root{
+    --subtitle: 2.2rem;
+}
+
+/* Pantalla de carga */
+
+.landing__word{
+    font-size: 3.4rem;
+}
